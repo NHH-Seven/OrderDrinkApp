@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "516603089293",
+    "project_id": "orderdrinkapp-10257",
+    "storage_bucket": "orderdrinkapp-10257.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:516603089293:android:7a785adddab823713cadc4",
+        "android_client_info": {
+          "package_name": "com.sinhvien.orderdrinkapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBe6ninrsbHXRajuV5aBtnKdPY5VZNo-xA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

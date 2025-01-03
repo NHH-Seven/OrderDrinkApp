@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+
+
+    <!-- Background Image -->
+    <ImageView
+        android:id="@+id/bgImage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:alpha="0.2"
+        android:scaleType="centerCrop"
+        android:src="@drawable/anhwelcome"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- Register Form -->
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="379dp"
+        android:layout_height="622dp"
+        android:layout_margin="24dp"
+        android:background="#FFFFFF"
+        android:elevation="4dp"
+        android:orientation="vertical"
+        android:padding="16dp"
+        app:layout_constraintBottom_toBottomOf="@+id/bgImage"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.449">
+
+        <!-- Title -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="16dp"
+            android:text="Hướng Dẫn Sử Dụng"
+            android:textColor="#6200EE"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/guide_textt"
+            android:layout_width="341dp"
+            android:layout_height="439dp"
+            android:layout_centerInParent="true"
+            android:text="Hướng dẫn:\n
+ Đăng ký tài khoản:
+Nhấn nút Đăng ký trên màn hình chính.
+Nhập thông tin cần thiết như: Tên, Email, Mật khẩu.
+Bấm Xác nhận để tạo tài khoản.\n
+ Đăng nhập:
+Nhập Email và Mật khẩu đã đăng ký.
+Nhấn Đăng nhập để vào hệ thống.\n
+ Thêm món mới:
+Nhấn nút Thêm món.
+Nhập thông tin món: Tên, Giá, Hình ảnh (nếu có).
+Nhấn Lưu.
+Chỉnh sửa món:
+Chọn món cần chỉnh sửa.
+Cập nhật thông tin và bấm Lưu.
+Xóa món:
+Chọn món và nhấn nút Xóa.
+Xác nhận hành động.\n
+ Truy cập Quản lý nhân viên.
+Thêm nhân viên mới:
+Nhấn Thêm nhân viên.
+Nhập thông tin như Tên, Email, Số điện thoại, và Vai trò (Phục vụ, Quản lý).
+Nhấn Lưu.
+Chỉnh sửa thông tin nhân viên:
+Chọn nhân viên cần chỉnh sửa và cập nhật thông tin.
+Xóa nhân viên:
+Chọn nhân viên và nhấn Xóa
+"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/btnvideo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:backgroundTint="#03DAC5"
+            android:text="Video Hướng Dẫn Sử Dụng"
+            android:textColor="#000000" />
+
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/img_hdsd_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:src="@drawable/ic_baseline_arrow_back_24"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.042"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.022" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

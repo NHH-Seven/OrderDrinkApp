@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.sinhvien.orderdrinkapp">
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.OrderDrinkApp">
+
+        <activity android:name="com.sinhvien.orderdrinkapp.Activities.AddStaffActivity" />
+        <activity android:name="com.sinhvien.orderdrinkapp.Activities.PasswordActivity"/>
+
+        <activity
+            android:name="com.sinhvien.orderdrinkapp.Activities.EditTableActivity"
+            android:label="Sửa bàn ăn"
+            android:theme="@style/PopUpActivity" />
+        <activity android:name="com.sinhvien.orderdrinkapp.Activities.PaymentActivity" />
+        <activity
+            android:name="com.sinhvien.orderdrinkapp.Activities.AmountMenuActivity"
+            android:label="số lượng món"
+            android:theme="@style/PopUpActivity" />
+        <activity android:name="com.sinhvien.orderdrinkapp.Activities.AddCategoryActivity" />
+        <activity android:name="com.sinhvien.orderdrinkapp.Activities.AddMenuActivity" />
+        <activity
+            android:name="com.sinhvien.orderdrinkapp.Activities.AddTableActivity"
+            android:label="@string/addTable"
+            android:theme="@style/PopUpActivity" />
+        <activity android:name="com.sinhvien.orderdrinkapp.Activities.HomeActivity" />
+        <activity android:name="com.sinhvien.orderdrinkapp.Activities.LoginActivity" />
+        <activity android:name="com.sinhvien.orderdrinkapp.Activities.Register2ndActivity" />
+        <activity android:name="com.sinhvien.orderdrinkapp.Activities.SplashActivity" />
+        <activity android:name="com.sinhvien.orderdrinkapp.Activities.RegisterActivity" />
+        <activity android:name="com.sinhvien.orderdrinkapp.Activities.FeedbackActivity" />
+        <activity android:name="com.sinhvien.orderdrinkapp.Activities.ProductDetailActivity" />
+        <activity android:name="com.sinhvien.orderdrinkapp.Activities.QuenMatKhauActivity" />
+        <activity android:name="com.sinhvien.orderdrinkapp.Activities.NhapOTPActivity" />
+        <activity android:name="com.sinhvien.orderdrinkapp.Activities.DetailStatisticActivity" />
+        <activity android:name="com.sinhvien.orderdrinkapp.Activities.WelcomeActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
